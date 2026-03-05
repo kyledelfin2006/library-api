@@ -25,7 +25,7 @@ This Library Management System provides a command-line interface for managing a 
 - **Most Expensive Book**: Instantly identify the highest-priced book
 - **Total Value**: Calculate the combined value of all books in the library
 
-### Technical Highlights
+### Technical Implementations
 - **Immutable Book Objects**: Books cannot be modified after creation, ensuring data integrity
 - **Multi-Layer Validation**: Input validated at both UI and data model layers
 - **Comprehensive Error Handling**: Graceful handling of invalid inputs with user-friendly retry logic
@@ -56,7 +56,7 @@ This Library Management System provides a command-line interface for managing a 
 └─────────────────────────┘
 ```
 
-### Design Patterns & Principles
+### Design Patterns & Principles learned from Project
 
 **Object-Oriented Principles**:
 - **Encapsulation**: Private fields with public getters, no setters for immutability
@@ -88,7 +88,6 @@ javac *.java
 java Main
 ```
 
-## Usage Guide
 
 ### Main Menu
 ```
@@ -152,7 +151,7 @@ BOOK-0002  The Hobbit                J.R.R. Tolkien       Fantasy         12.50
 BOOK-0001  1984                      George Orwell        Dystopian       15.99
 ```
 
-##  Code Quality Features
+##  Code Quality Features (Developer's Favorites)
 
 ### Input Validation
 - **Multi-layer validation**: Both at UI level and within Book constructor
@@ -172,7 +171,7 @@ BOOK-0001  1984                      George Orwell        Dystopian       15.99
 - **Consistent formatting**: Proper indentation and spacing throughout
 - **Modular design**: Each method has a single, well-defined purpose
 
-##  Learning Objectives Demonstrated
+##  Learning Objectives 
 
 This project showcases understanding of:
 
@@ -241,10 +240,6 @@ Future features to explore:
 - [ ] GUI version using JavaFX or Swing
 - [ ] Unit tests with JUnit
 - [ ] Multi-user support with authentication
-
-##  License
-
-This project is licensed under the MIT License - free to use for educational purposes.
 
 ##  Contributing
 
