@@ -5,13 +5,13 @@
 ![Status](https://img.shields.io/badge/status-educational-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A console-based library management system built in Java, demonstrating object-oriented programming principles and clean code architecture.
+A console-based library management system built in Java, demonstrating object-oriented programming principles.
 
-> **Educational Project**: This system was developed as a learning exercise to practice OOP concepts, input validation, separation of concerns, and defensive programming techniques.
+> **Educational Project**: This project was developed as a learning exercise to practice OOP concepts, input validation, separation of concerns, and defensive programming techniques.
 
 ## Overview
 
-This Library Management System provides a command-line interface for managing a collection of books. Users can add books, view the collection, search and filter books, and perform various operations like finding the most expensive book or calculating the total library value.
+This L-M-S provides a command-line interface for managing a collection of books. Users can add books, view the collection, search and filter books, and perform various operations like finding the most expensive book or calculating the total library value.
 
 ## Features
 
@@ -171,9 +171,7 @@ BOOK-0001  1984                      George Orwell        Dystopian       15.99
 - **Consistent formatting**: Proper indentation and spacing throughout
 - **Modular design**: Each method has a single, well-defined purpose
 
-##  Learning Objectives 
-
-This project showcases understanding of:
+##  Ideas Learned
 
 1. **Object-Oriented Programming**
    - Classes and objects
