@@ -1,7 +1,6 @@
 package api.models;
 
 import api.util.BookIDGenerator;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonPropertyOrder({"id", "title", "author", "genre", "price"})

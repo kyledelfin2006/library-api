@@ -126,18 +126,7 @@
             // POST /api/books - add book
             post("/api/books", (req, res) -> {
                 try {
-
-                    System.out.println("Raw JSON received: " + req.body());
-
                     BookInput inputBook = mapper.readValue(req.body(), BookInput.class);
-
-                    // ADD THESE DEBUG LINES:
-                    System.out.println("Parsed BookInput:");
-                    System.out.println("  title: " + inputBook.getTitle());
-                    System.out.println("  author: " + inputBook.getAuthor());
-                    System.out.println("  genre: " + inputBook.getGenre());
-                    System.out.println("  price: " + inputBook.getPrice());
-
 
                     Book newBook = manager.addBook(inputBook); // BookInput turns into Book.
 
